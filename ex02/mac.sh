@@ -1,1 +1,4 @@
-42:01:0a:80:00:02
+#!/bin/bash
+
+ifconfig | grep "ether"
+
