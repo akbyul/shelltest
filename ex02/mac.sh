@@ -1,4 +1,3 @@
 #!/bin/bash
 
-ifconfig | grep "ether"
-
+ifconfig | grep "ethe" | awk '{print $2}'
